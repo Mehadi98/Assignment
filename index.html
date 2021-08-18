@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Multiple Program</title>
+  </head>
+  <body>
+
+
+    <!-- user select box  -->
+    <div class="main_page">
+      <input id="input" class="user_choice_box" type="text">
+      <input id="btn" class="submit" type="submit" value="Submit">
+  </div>
+
+
+  <div class="cgpa_calculator">
+
+    <h1>CGPA CALCULATOR</h1>
+
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control s1" placeholder="1st Semester Result">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control s2" placeholder="2nd Semester Result">
+      </div>
+      
+    </div>
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control s3" placeholder="3rd Semester Result">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control s4" placeholder="4th Semester Result">
+      </div>
+      
+    </div>
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control s5" placeholder="5th Semester Result">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control s6" placeholder="6th Semester Result">
+      </div>
+      
+    </div>
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control s7" placeholder="7th Semester Result">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control s8" placeholder="8th Semester Result" >
+      </div>
+      
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <input type="submit" id="cgpa_btn_cal" class="form-control cgpa-btn " value="Submit">
+      </div>
+      <div class="col">
+        <input type="submit" id="cgpa_exit" class="form-control cgpa-btn" value="Exit" >
+      </div>
+      
+    </div>
+     
+    <h1 class="display_cgpa">Your Reault is 0.00</h1>
+
+  </div>
+
+  <div class="love">
+    <input class = "name1" type="text">
+    <input class = "name2" type="text">
+    <div class="love_value"></div>
+    <button id="loveCal" class="love_btn" type="submit">Love</button>
+    <div class="heart"></div>
+
+    <button id="loveExit" class="love_btn exit" type="submit ">Exit</button>
+  </div>
+
+
+
+
+<div class="calculator_wrap">
+        <span id="display"></span><br>
+        <button class="n1">1</button>
+        <button class="n2">2</button>
+        <button class="plus">+</button>
+        <button class="n3">3</button>
+        <button class="n4">4</button>
+        <button class="minus">-</button>
+        <button class="n5">5</button>
+        <button class="n6">6</button>
+        <button class="mul">*</button>
+        <button class="n7">7</button>
+        <button class="n8">8</button>
+        <button class="div">/</button>
+        <button class="n9">9</button>
+        <button class="n0">0</button>
+        <button class="clear">Clear</button>
+        <button class="result">Result</button>
+        <button id="exit_cal" class="result">Exit</button>
+    </div>
+
+
+
+    <div class="container age_cal">
+      <div class="inputs-wrapper">
+        <h1 class="age-head">AGE Calculator</h1>
+          <input type="date" id="date-input">
+          <button id="age_calculate">Calculate</button>
+      </div>
+      <div class="outputs-wrapper">
+          <div>
+              <span id="years">
+                  -
+              </span>
+              <p>
+                  Years
+              </p>
+          </div>
+          <div>
+              <span id="months">
+                  -
+              </span>
+              <p>
+                 Months
+              </p>
+          </div>
+          <div>
+              <span id="days">
+                  -
+              </span>
+              <p>
+                  Days
+              </p>
+          </div>
+          <div>
+            
+              <button class="exit_age" type="submit">Exit</button>
+            
+          </div>
+      </div>
+  </div>
+   
+
+
+
+  
+
+  <div class="card text-center bmi" id="bmi">
+    <div class="card-header bg-warning">
+      BMI CALCULATOR
+    </div>
+    <div class="card-body">
+      <form onsubmit="return false">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Enter Your Weight in kg</label>
+          <input type="text" class="form-control" id="bmiWeight" aria-describedby="emailHelp">
+          
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Enter Your Height in Ft </label>
+          <input type="text" class="form-control" id="bmiHeight">
+        </div>
+
+        <button id="bmiSubmit" type="submit" class="btn btn-success">Submit</button>
+        <button id="bmiReset" type="submit" class="btn btn-info">Reset</button>
+        <button id="bmiExit" type="submit" class="btn btn-primary">Exit</button>
+       
+
+
+        <div class="mb-3 mt-4">
+          <label for="bmiDisplay" class="form-label">Your BMI : </label>
+          <input type="text" class="form-control" id="bmiDisplay">
+        </div>
+      </form>
+    </div>
+    <div class="card-footer text-muted bg-dark">
+      19 to 25 is a Normal BMI
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+    
+  </body>
+</html>
